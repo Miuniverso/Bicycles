@@ -36,6 +36,8 @@
 
   display: none;
 
+  z-index: 2;
+
   &--active {
     background-color: $white;
 
