@@ -1,0 +1,30 @@
+@mixin link-base {
+  text-decoration: none;
+}
+
+@mixin button {
+  text-decoration: none;
+  border: none;
+}
+
+@mixin input {
+  background: $white;
+  border: 1px solid #C9CCD4;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+@mixin list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+
+  letter-spacing: -0.005em;
+}
