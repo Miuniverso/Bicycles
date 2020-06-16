@@ -51,7 +51,7 @@
   border-radius: 50%;
   background-color: $mint;
 
-  background-image: url("../../img/svg/play.svg");
+  background-image: url("../img/svg/play.svg");
   background-position: center;
   background-repeat: no-repeat;
 
@@ -119,7 +119,7 @@
   }
 
   .video__wrapper {
-    max-width: 90%;
+    min-width: 90%;
     margin-top: 186px;
   }
 
@@ -127,5 +127,8 @@
     transform: translate(-50%,-53%);
     background-position: 55% 50%;
     background-size: 21%;
+
+    width: 65px;
+    height: 65px;
   }
 }

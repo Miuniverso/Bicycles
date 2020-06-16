@@ -63,9 +63,22 @@
         <li class="catalog__item">
           <a href="#" class="catalog__link catalog__link--first">
 
+            <!-- 1024 1х: 342px; 2x: 684px -->
+            <!-- 1023 1х: 270px; 2x: 540px -->
+
             <picture>
+              <source type="image/webp" media="(min-width: 1024px)" srcset="img/bike-type-1@1x.webp 1x, img/bike-type-1@2x.webp 2x">
               <source type="image/webp" media="(max-width: 1023px)" srcset="img/bike-type-1-tablet@1x.webp 1x, img/bike-type-1-tablet@2x.webp 2x">
-              <source media="(max-width: 1024px)" srcset="img/bike-type-1-tablet@1x.png">
+              <source media="(min-width: 1024px)" srcset="img/bike-type-1@1x.jpg 1x img/bike-type-1@2x.jpg 2x">
+              <source media="(max-width: 1023px)" srcset="img/bike-type-1-tablet@1x.png 1x img/bike-type-1-tablet@2x.png 2x">
+              <!-- <img class="catalog__img" srcset="img/bike-type-1@1x.jpg 2x,
+                                              img/bike-type-1-tablet@1x.png 1x,
+                                              img/bike-type-1-tablet@2x.png 2x,
+                                              img/bike-type-1-tablet@1x.png 1023w,
+                                              img/bike-type-1-tablet@2x.png 1023w"
+                                        sizes="(max-width: 1023px) 342px"
+              src="img/bike-type-1@1x.jpg" alt="Дорожный велосипед" width="342" height="503"> -->
+
               <img src="img/bike-type-1@1x.jpg" alt="Дорожный велосипед" width="342" height="503" class="catalog__img">
             </picture>
             <b class="catalog__subtitle">Дорожный велосипед</b>
@@ -73,9 +86,15 @@
         </li>
         <li class="catalog__item">
           <a href="#" class="catalog__link catalog__link--middle">
+
+            <!-- 1024 1х: 342px; 2x: 684px -->
+            <!-- 1023 1х: 270px; 2x: 540px -->
+
             <picture>
+              <source type="image/webp" media="(min-width: 1024px)" srcset="img/bike-type-2@1x.webp 1x, img/bike-type-2@2x.webp 2x">
               <source type="image/webp" media="(max-width: 1023px)" srcset="img/bike-type-2-tablet@1x.webp 1x, img/bike-type-2-tablet@2x.webp 2x">
-              <source media="(max-width: 1024px)" srcset="img/bike-type-2-tablet@1x.jpg">
+              <source media="(min-width: 1024px)" srcset="img/bike-type-2@1x.jpg 1x img/bike-type-2@2x.jpg 2x">
+              <source media="(max-width: 1023px)" srcset="img/bike-type-2-tablet@1x.jpg 1x img/bike-type-2-tablet@2x.jpg 2x">
               <img src="img/bike-type-2@1x.jpg" alt="Горный велосипед" width="342" height="566" class="catalog__img">
             </picture>
             <b class="catalog__subtitle">Горный велосипед</b>
@@ -83,9 +102,15 @@
         </li>
         <li class="catalog__item">
           <a href="#" class="catalog__link catalog__link--last">
+
+            <!-- 1024 1х: 342px; 2x: 684px -->
+            <!-- 1023 1х: 270px; 2x: 540px -->
+
             <picture>
+              <source type="image/webp" media="(min-width: 1024px)" srcset="img/bike-type-3@1x.webp 1x, img/bike-type-3@2x.webp 2x">
               <source type="image/webp" media="(max-width: 1023px)" srcset="img/bike-type-3-tablet@1x.webp 1x, img/bike-type-3-tablet@2x.webp 2x">
-              <source media="(max-width: 1024px)" srcset="img/bike-type-3-tablet@1x.jpg">
+              <source media="(min-width: 1024px)" srcset="img/bike-type-3@1x.jpg 1x img/bike-type-3@2x.jpg 2x">
+              <source media="(max-width: 1023px)" srcset="img/bike-type-3-tablet@1x.jpg 1x img/bike-type-3-tablet@2x.jpg 2x">
               <img src="img/bike-type-3@1x.jpg" alt="Детский велосипед" width="342" height="512" class="catalog__img">
             </picture>
             <b class="catalog__subtitle">Детский велосипед</b>
