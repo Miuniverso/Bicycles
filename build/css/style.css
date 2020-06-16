@@ -389,7 +389,7 @@ video {
     @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
       .main-header::after {
         background-image: url("../img/bike-intro@2x.jpg");
-        background-size: contain; } }
+        background-size: cover; } }
 
 .main-header__button {
   text-decoration: none;
@@ -702,7 +702,7 @@ video {
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 4px;
-  border: none; }
+  border: 1px solid #C9CCD4; }
   .form input[placeholder] {
     font-style: normal;
     font-weight: normal;
@@ -1303,7 +1303,7 @@ video {
     max-width: 80%; }
   .contacts__map {
     margin-top: 18px;
-    width: 100%;
+    width: 320px;
     min-height: 250px;
     background-image: url("../img/map-prew-mobile.jpg"); } }
   @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 767px) and (min-resolution: 1.5dppx) {

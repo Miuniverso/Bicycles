@@ -26,7 +26,7 @@
         </li>
       </ul>
     </nav>
-    <button class="main-header__button visually-hidden" type="button" name="button"></button>
+    <button class="main-header__button visually-hidden" type="button" name="button" aria-label="кнопка открыть мобильное меню"></button>
     <div class="intro">
       <div class="intro__wrapper">
         <h1 class="visually-hidden">Магазин велосипедов Moon</h1>
@@ -39,8 +39,10 @@
       <div class="intro__form form">
         <b class="form__title">Заполните поля ниже и мы подберем велосипед Вашей мечты</b>
         <form class="form__wrapper" action="#" method="post">
-          <input type="text" name="name" placeholder="Введите Ваше Имя">
-          <input type="number" name="tel" placeholder="Введите Ваш номер телефона">
+          <label for="name" class="visually-hidden">Ваше Имя</label>
+          <input type="text" name="name" id="name" placeholder="Введите Ваше Имя">
+          <label for="tel" class="visually-hidden">Ваш номер телефона</label>
+          <input type="number" name="tel" id="tel" placeholder="Введите Ваш номер телефона">
           <button class="form__btn" type="submit" name="button">Подобрать велосипед мечты</button>
         </form>
       </div>

@@ -28,7 +28,7 @@
   padding-right: 30px;
 
   border-radius: 4px;
-  border: none;
+  border: 1px solid #C9CCD4;
 
   &[placeholder] {
     font-style: normal;
@@ -52,11 +52,6 @@
 
     border: 2px solid $mint;
   }
-
-  // &[placeholder]:hover {
-  //   color: blue;
-  // }
-
 }
 
 .form__btn {

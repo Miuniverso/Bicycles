@@ -23,7 +23,7 @@
 
     @media (min-resolution: $retina-dppx) {
       background-image: url("../img/bike-intro@2x.jpg");
-      background-size: contain;
+      background-size: cover;
     }
   }
 }
