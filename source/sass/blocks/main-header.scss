@@ -77,11 +77,6 @@
       height: 340px;
       min-height: 320px;
       // background-image: url("../img/bike-intro-tablet@1x.jpg");
-
-      @media (min-resolution: $retina-dppx) {
-        // background-image: url("../img/bike-intro-tablet@2x.jpg");
-        background-size: contain;
-      }
     }
   }
 
@@ -121,11 +116,6 @@
       // background-image: url("../img/bike-intro@1x.jpg");
       background-size: cover;
       background-position: center bottom;
-
-      @media (min-resolution: $retina-dppx) {
-        // background-image: url("../img/bike-intro@2x.jpg");
-        background-size: cover;
-      }
     }
   }
 

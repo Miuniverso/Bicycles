@@ -424,12 +424,7 @@ video {
     padding-bottom: 217px; }
     .main-header::after {
       height: 340px;
-      min-height: 320px; } }
-    @media (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 1023px) and (min-resolution: 1.5dppx) {
-      .main-header::after {
-        background-size: contain; } }
-
-@media (max-width: 1023px) {
+      min-height: 320px; }
   .no-js .main-header::after,
   .no-webp .main-header::after {
     background-image: url("../img/bike-intro-tablet@1x.jpg"); } }
@@ -459,12 +454,7 @@ video {
       height: 390px;
       min-height: 320px;
       background-size: cover;
-      background-position: center bottom; } }
-    @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 767px) and (min-resolution: 1.5dppx) {
-      .main-header::after {
-        background-size: cover; } }
-
-@media (max-width: 767px) {
+      background-position: center bottom; }
   .no-js .main-header::after,
   .no-webp .main-header::after {
     background-image: url("../img/bike-intro@1x.jpg"); } }
@@ -753,10 +743,10 @@ video {
   .form input:not(:last-child) {
     margin-bottom: 22px; }
   .form input:hover, .form input:focus {
-    padding-top: 12px;
-    padding-bottom: 6px;
-    padding-left: 28px;
-    padding-right: 28px;
+    padding-top: 13px;
+    padding-bottom: 7px;
+    padding-left: 29px;
+    padding-right: 29px;
     border: 2px solid #0AD9C6; }
 
 .form__btn {
