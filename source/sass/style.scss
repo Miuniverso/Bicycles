@@ -1,4 +1,4 @@
-@import "normalize.css";
+@import "./normalize";
 @import "global.scss";
 @import "variables.scss";
 @import "./mixins.scss";
@@ -8,3 +8,5 @@
 @import "./blocks/form.scss";
 @import "./blocks/facts.scss";
 @import "./blocks/catalog.scss";
+@import "./blocks/video.scss";
+@import "./blocks/contacts.scss";

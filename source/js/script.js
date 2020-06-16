@@ -16,7 +16,6 @@
 
 
 'use strict';
-console.log('1');
 
 // open burger menu
 
@@ -27,9 +26,7 @@ var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
 if (viewportWidth < 1023) {
   console.log('<1024');
   menu.classList.add("visually-hidden");
-  console.log('2');
   navButton.classList.remove('visually-hidden');
-  console.log('3');
 } else {
   menu.classList.remove("visually-hidden");
   navButton.classList.add('visually-hidden');

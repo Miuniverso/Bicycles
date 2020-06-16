@@ -45,7 +45,11 @@
   margin-top: 5px;
 }
 
-@media (min-width: $tablet) and (max-width: $desktop) {
+.intro__logo {
+  z-index: 0;
+}
+
+@media (max-width: $desktop) {
   .intro {
     margin-top: 0;
     flex-direction: column;
@@ -74,7 +78,7 @@
   .intro__logo {
     position: absolute;
     top: 25px;
-    left: 21px;
+    left: 22px;
   }
 
   .intro__form {
@@ -83,7 +87,7 @@
   }
 }
 
-@media (min-width: $mobile) and (max-width: $tablet) {
+@media (max-width: $tablet) {
   .intro {
     margin-top: 0;
     flex-direction: column;
@@ -93,7 +97,7 @@
   .intro__logo {
     position: absolute;
     top: 25px;
-    left: 21px;
+    left: 22px;
   }
 
   .intro__wrapper {

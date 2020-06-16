@@ -40,6 +40,8 @@
 
   position: relative;
 
+  z-index: 1;
+
   &--first::before {
     position: absolute;
     content: "";
@@ -53,7 +55,7 @@
     transform: translateY(-48%);
     left: -60px;
 
-    z-index: 1;
+    z-index: -1;
   }
 
   &--last::after {
@@ -96,6 +98,15 @@
     bottom: 31px;
     right: -23px;
   }
+
+  &:hover .catalog__subtitle,
+  &:focus .catalog__subtitle {
+    color: $mint;
+  }
+
+  &:active .catalog__subtitle {
+    color: $black;
+  }
 }
 
 .catalog__link--first {
@@ -112,17 +123,23 @@
 }
 
 .catalog__subtitle {
+  @include animation;
+
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
   line-height: 34px;
 
-  margin-top: 20px;
+  margin-top: 15px;
 
   color: $black;
 }
 
-@media (min-width: $tablet) and (max-width: $desktop) {
+@media (max-width: $desktop) {
+  .catalog {
+    padding-bottom: 22px;
+  }
+
   .catalog__title {
     font-size: 24px;
     line-height: 41px;
@@ -194,10 +211,15 @@
   }
 }
 
-@media (min-width: $mobile) and (max-width: $tablet) {
+@media (max-width: $tablet) {
+  .catalog {
+    padding-bottom: 12px;
+  }
+
   .catalog__title {
     font-size: 24px;
     line-height: 41px;
+    padding-top: 50px;
   }
 
   .catalog__list {

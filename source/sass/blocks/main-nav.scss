@@ -32,10 +32,21 @@
 }
 
 .main-nav__link {
+  @include animation;
   color: $white;
+
+  &:hover,
+  &:focus {
+    color: $mint;
+  }
+
+  &:active {
+    color: $white;
+    opacity: 1;
+  }
 }
 
-@media (min-width: $tablet) and (max-width: $desktop) {
+@media (max-width: $desktop) {
   .main-nav {
     min-width: 100%;
     background-color: $white;
@@ -55,6 +66,10 @@
 
     padding: 17px 0;
     margin-bottom: 30px;
+
+    &:first-child {
+      margin-top: 30px;
+    }
   }
 
   .main-nav__link {
@@ -78,7 +93,7 @@
   }
 }
 
-@media (min-width: $mobile) and (max-width: $tablet) {
+@media (max-width: $tablet) {
   .main-nav {
     min-width: 100%;
     padding: 0;
@@ -99,6 +114,10 @@
 
     padding: 17px 0;
     margin-bottom: 30px;
+
+    &:first-child {
+      margin-top: 30px;
+    }
   }
 
   .main-nav__link {

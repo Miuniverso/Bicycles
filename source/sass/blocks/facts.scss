@@ -57,7 +57,7 @@
   }
 }
 
-@media (min-width: $tablet) and (max-width: $desktop) {
+@media (max-width: $desktop) {
   .facts {
     margin-bottom: -26px;
   }
@@ -87,7 +87,11 @@
   }
 }
 
-@media (min-width: $mobile) and (max-width: $tablet) {
+@media (max-width: $tablet) {
+  .facts {
+    margin-bottom: 4px;
+  }
+
   .facts__title {
     margin-top: -148px;
 
