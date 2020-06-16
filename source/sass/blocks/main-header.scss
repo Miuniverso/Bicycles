@@ -28,6 +28,7 @@
   }
 }
 
+.no-js .main-header::after,
 .no-webp .main-header::after {
   background-image: url("../img/bike-intro@1x.jpg");
 
@@ -84,6 +85,7 @@
     }
   }
 
+  .no-js .main-header::after,
   .no-webp .main-header::after {
     background-image: url("../img/bike-intro-tablet@1x.jpg");
 
@@ -127,6 +129,7 @@
     }
   }
 
+  .no-js .main-header::after,
   .no-webp .main-header::after {
     background-image: url("../img/bike-intro@1x.jpg");
 

@@ -43,6 +43,7 @@
   }
 }
 
+.no-js .contacts__map,
 .no-webp .contacts__map {
   background-image: url("..img/map-prew.jpg");
 
@@ -167,6 +168,7 @@
     }
   }
 
+  .no-js .contacts__map,
   .no-webp .contacts__map {
     background-image: url("..img/map-prew-tablet.jpg");
 
@@ -215,6 +217,7 @@
     }
   }
 
+  .no-js .contacts__map,
   .no-webp .contacts__map {
     background-image: url("..img/map-prew-mobile.jpg");
 
