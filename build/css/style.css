@@ -525,7 +525,7 @@ video {
       content: "";
       width: 25px;
       height: 25px;
-      background-image: url("../../img/svg/arrow-down.svg");
+      background-image: url("../img/svg/arrow-down.svg");
       right: 16px; } }
 
 @media (max-width: 767px) {
