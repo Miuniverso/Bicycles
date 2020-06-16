@@ -28,6 +28,23 @@
   }
 }
 
+.no-webp .main-header::after {
+  background-image: url("../img/bike-intro@1x.jpg");
+
+  @media (min-resolution: $retina-dppx) {
+    background-image: url("../img/bike-intro@2x.jpg");
+  }
+}
+
+
+.webp .main-header::after {
+  background-image: url("../img/bike-intro@1x.webp");
+
+  @media (min-resolution: $retina-dppx) {
+    background-image: url("../img/bike-intro@2x.webp");
+  }
+}
+
 .main-header__button {
   @include button;
 
@@ -66,6 +83,24 @@
       }
     }
   }
+
+  .no-webp .main-header::after {
+    background-image: url("../img/bike-intro-tablet@1x.jpg");
+
+    @media (min-resolution: $retina-dppx) {
+      background-image: url("../img/bike-intro-tablet@2x.jpg");
+    }
+  }
+
+
+  .webp .main-header::after {
+    background-image: url("../img/bike-intro-tablet@1x.webp");
+
+    @media (min-resolution: $retina-dppx) {
+      background-image: url("../img/bike-intro-tablet@2x.webp");
+    }
+  }
+
   .main-header__button {
     display: block;
     position: absolute;
@@ -91,6 +126,24 @@
       }
     }
   }
+
+  .no-webp .main-header::after {
+    background-image: url("../img/bike-intro@1x.jpg");
+
+    @media (min-resolution: $retina-dppx) {
+      background-image: url("../img/bike-intro@2x.jpg");
+    }
+  }
+
+
+  .webp .main-header::after {
+    background-image: url("../img/bike-intro@1x.webp");
+
+    @media (min-resolution: $retina-dppx) {
+      background-image: url("../img/bike-intro@2x.webp");
+    }
+  }
+
   .main-header__button {
     display: block;
     position: absolute;

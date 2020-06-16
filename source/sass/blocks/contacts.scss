@@ -43,6 +43,23 @@
   }
 }
 
+.no-webp .contacts__map {
+  background-image: url("..img/map-prew.jpg");
+
+  @media (min-resolution: $retina-dppx) {
+    background-image: url("..img/map-prew@2x.jpg");
+  }
+}
+
+
+.webp .contacts__map {
+  background-image: url("../img/map-prew.webp");
+
+  @media (min-resolution: $retina-dppx) {
+    background-image: url("../img/map-prew@2x.webp");
+  }
+}
+
 .contacts__list {
   @include list;
 
@@ -149,6 +166,23 @@
       background-size: contain;
     }
   }
+
+  .no-webp .contacts__map {
+    background-image: url("..img/map-prew-tablet.jpg");
+
+    @media (min-resolution: $retina-dppx) {
+      background-image: url("..img/map-prew@-tablet2x.jpg");
+    }
+  }
+
+
+  .webp .contacts__map {
+    background-image: url("../img/map-prew-tablet.webp");
+
+    @media (min-resolution: $retina-dppx) {
+      background-image: url("../img/map-prew-tablet@2x.webp");
+    }
+  }
 }
 
 @media (max-width: $tablet) {
@@ -178,6 +212,23 @@
     @media (min-resolution: $retina-dppx) {
       background-image: url("../img/map-prew-mobile@2x.jpg");
       background-size: contain;
+    }
+  }
+
+  .no-webp .contacts__map {
+    background-image: url("..img/map-prew-mobile.jpg");
+
+    @media (min-resolution: $retina-dppx) {
+      background-image: url("..img/map-prew@-mobile@2x.jpg");
+    }
+  }
+
+
+  .webp .contacts__map {
+    background-image: url("../img/map-prew-mobile.webp");
+
+    @media (min-resolution: $retina-dppx) {
+      background-image: url("../img/map-prew-mobile@2x.webp");
     }
   }
 

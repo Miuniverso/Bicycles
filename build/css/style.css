@@ -391,6 +391,18 @@ video {
         background-image: url("../img/bike-intro@2x.jpg");
         background-size: cover; } }
 
+.no-webp .main-header::after {
+  background-image: url("../img/bike-intro@1x.jpg"); }
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+    .no-webp .main-header::after {
+      background-image: url("../img/bike-intro@2x.jpg"); } }
+
+.webp .main-header::after {
+  background-image: url("../img/bike-intro@1x.webp"); }
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+    .webp .main-header::after {
+      background-image: url("../img/bike-intro@2x.webp"); } }
+
 .main-header__button {
   text-decoration: none;
   border: none;
@@ -420,6 +432,20 @@ video {
         background-size: contain; } }
 
 @media (max-width: 1023px) {
+  .no-webp .main-header::after {
+    background-image: url("../img/bike-intro-tablet@1x.jpg"); } }
+  @media (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 1023px) and (min-resolution: 1.5dppx) {
+    .no-webp .main-header::after {
+      background-image: url("../img/bike-intro-tablet@2x.jpg"); } }
+
+@media (max-width: 1023px) {
+  .webp .main-header::after {
+    background-image: url("../img/bike-intro-tablet@1x.webp"); } }
+  @media (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 1023px) and (min-resolution: 1.5dppx) {
+    .webp .main-header::after {
+      background-image: url("../img/bike-intro-tablet@2x.webp"); } }
+
+@media (max-width: 1023px) {
   .main-header__button {
     display: block;
     position: absolute;
@@ -439,6 +465,20 @@ video {
       .main-header::after {
         background-image: url("../img/bike-intro@2x.jpg");
         background-size: cover; } }
+
+@media (max-width: 767px) {
+  .no-webp .main-header::after {
+    background-image: url("../img/bike-intro@1x.jpg"); } }
+  @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 767px) and (min-resolution: 1.5dppx) {
+    .no-webp .main-header::after {
+      background-image: url("../img/bike-intro@2x.jpg"); } }
+
+@media (max-width: 767px) {
+  .webp .main-header::after {
+    background-image: url("../img/bike-intro@1x.webp"); } }
+  @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 767px) and (min-resolution: 1.5dppx) {
+    .webp .main-header::after {
+      background-image: url("../img/bike-intro@2x.webp"); } }
 
 @media (max-width: 767px) {
   .main-header__button {
@@ -1215,6 +1255,18 @@ video {
       background-image: url("../img/map-prew@2x.jpg");
       background-size: contain; } }
 
+.no-webp .contacts__map {
+  background-image: url("..img/map-prew.jpg"); }
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+    .no-webp .contacts__map {
+      background-image: url("..img/map-prew@2x.jpg"); } }
+
+.webp .contacts__map {
+  background-image: url("../img/map-prew.webp"); }
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+    .webp .contacts__map {
+      background-image: url("../img/map-prew@2x.webp"); } }
+
 .contacts__list {
   margin: 0;
   padding: 0;
@@ -1292,6 +1344,20 @@ video {
       background-image: url("../img/map-prew-tablet@2x.jpg");
       background-size: contain; } }
 
+@media (max-width: 1023px) {
+  .no-webp .contacts__map {
+    background-image: url("..img/map-prew-tablet.jpg"); } }
+  @media (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 1023px) and (min-resolution: 1.5dppx) {
+    .no-webp .contacts__map {
+      background-image: url("..img/map-prew@-tablet2x.jpg"); } }
+
+@media (max-width: 1023px) {
+  .webp .contacts__map {
+    background-image: url("../img/map-prew-tablet.webp"); } }
+  @media (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 1023px) and (min-resolution: 1.5dppx) {
+    .webp .contacts__map {
+      background-image: url("../img/map-prew-tablet@2x.webp"); } }
+
 @media (max-width: 767px) {
   .contacts {
     padding-top: 20%;
@@ -1310,6 +1376,20 @@ video {
     .contacts__map {
       background-image: url("../img/map-prew-mobile@2x.jpg");
       background-size: contain; } }
+
+@media (max-width: 767px) {
+  .no-webp .contacts__map {
+    background-image: url("..img/map-prew-mobile.jpg"); } }
+  @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 767px) and (min-resolution: 1.5dppx) {
+    .no-webp .contacts__map {
+      background-image: url("..img/map-prew@-mobile@2x.jpg"); } }
+
+@media (max-width: 767px) {
+  .webp .contacts__map {
+    background-image: url("../img/map-prew-mobile.webp"); } }
+  @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 767px) and (min-resolution: 1.5dppx) {
+    .webp .contacts__map {
+      background-image: url("../img/map-prew-mobile@2x.webp"); } }
 
 @media (max-width: 767px) {
   .contacts__list {
