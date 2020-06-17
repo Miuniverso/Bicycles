@@ -811,7 +811,12 @@ video {
     padding-left: 16px;
     padding-right: 16px; }
     .form input:not(:last-child) {
-      margin-bottom: 19px; } }
+      margin-bottom: 19px; }
+    .form input:hover, .form input:focus {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+      padding-right: 15px; } }
 
 @media (max-width: 767px) {
   .form {
@@ -825,7 +830,12 @@ video {
     padding-top: 12px;
     padding-bottom: 10px;
     padding-left: 24px;
-    padding-right: 24px; } }
+    padding-right: 24px; }
+    .form input:hover, .form input:focus {
+      padding-top: 11px;
+      padding-bottom: 9px;
+      padding-left: 23px;
+      padding-right: 23px; } }
 
 .facts {
   margin: 0 auto;
