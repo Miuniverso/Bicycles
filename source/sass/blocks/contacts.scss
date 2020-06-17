@@ -8,6 +8,7 @@
 .contacts__title {
   @include title;
   margin-bottom: 29px;
+  margin-right: 11px;
 }
 
 .contacts__address {
@@ -190,7 +191,7 @@
 @media (max-width: $tablet) {
   .contacts {
     // padding-top: 106px;
-    padding-top: 20%;
+    padding-top: 33%;
     padding-bottom: 27px;
   }
 

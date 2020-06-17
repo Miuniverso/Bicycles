@@ -79,11 +79,19 @@
     position: absolute;
     top: 25px;
     left: 22px;
+
+    &--no-js {
+      z-index: 1;
+    }
   }
 
   .intro__form {
     margin-top: 151px;
     margin-right: 0;
+
+    &--no-js {
+      margin-top: 30%;
+    }
   }
 }
 
@@ -131,5 +139,9 @@
   .intro__form {
     margin-top: 25%;
     margin-right: 0;
+
+    &--no-js {
+      margin-top: 35%;
+    }
   }
 }
