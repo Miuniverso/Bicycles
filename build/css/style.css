@@ -390,21 +390,15 @@ video {
     left: 0;
     width: 100%;
     height: 825px;
+    background-image: url("../img/bike-intro@1x.jpg");
     background-repeat: no-repeat;
     background-color: #101010;
     background-position: top center;
     z-index: -1; }
     @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
       .main-header::after {
+        background-image: url("../img/bike-intro@2x.jpg");
         background-size: cover; } }
-
-.no-js .main-header::after,
-.no-webp .main-header::after {
-  background-image: url("../img/bike-intro@1x.jpg"); }
-  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
-    .no-js .main-header::after,
-    .no-webp .main-header::after {
-      background-image: url("../img/bike-intro@2x.jpg"); } }
 
 .webp .main-header::after {
   background-image: url("../img/bike-intro@1x.webp"); }
@@ -1293,6 +1287,7 @@ video {
   max-width: 957px;
   min-height: 530px;
   width: 100%;
+  background-image: url("../img/map-prew.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1300,15 +1295,8 @@ video {
   margin-top: 71px; }
   @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
     .contacts__map {
+      background-image: url("../img/map-prew@2x.jpg");
       background-size: contain; } }
-
-.no-js .contacts__map,
-.no-webp .contacts__map {
-  background-image: url("..img/map-prew.jpg"); }
-  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
-    .no-js .contacts__map,
-    .no-webp .contacts__map {
-      background-image: url("..img/map-prew@2x.jpg"); } }
 
 .webp .contacts__map {
   background-image: url("../img/map-prew.webp"); }
