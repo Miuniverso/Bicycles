@@ -2,12 +2,14 @@
   margin: 0 auto;
   margin-bottom: 91px;
   text-align: center;
+
+  &--no-js {
+    margin-top: 20%;
+  }
 }
 
 .facts__title {
   @include title;
-
-  // margin-top: 151px;
 
   margin-top: 153px;
   margin-left: 20px;

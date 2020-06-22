@@ -87,6 +87,10 @@
 @media (max-width: $desktop) {
   .form {
     max-width: 45%;
+
+    &--no-js {
+      display: none;
+    }
   }
 
   .form__title {

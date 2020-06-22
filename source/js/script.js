@@ -7,14 +7,16 @@ var menu = document.querySelector(".main-nav");
 var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
 var body = document.querySelector('body');
 var logo = document.querySelector('.intro__logo');
-var form = document.querySelector('.intro__form');
+var form = document.querySelector('.form');
+var menuLinks = document.querySelectorAll(".main-nav__link");
+var facts = document.querySelector(".facts");
 
 menu.classList.remove("main-nav--no-js");
 logo.classList.remove("intro__logo--no-js");
-form.classList.remove("intro__form--no-js");
+form.classList.remove("form--no-js");
+facts.classList.remove("facts--no-js");
 
 if (viewportWidth < 1023) {
-  console.log('<1024');
   menu.classList.add("visually-hidden");
   navButton.classList.remove('visually-hidden');
 } else {
@@ -40,3 +42,13 @@ navButton.addEventListener("click", function(evt) {
   navButton.classList.toggle('main-header__button--active');
   body.classList.toggle('no-scroll');
 });
+
+// work hidden menu
+
+for (var i = 0; i < menuLinks.length; i++) {
+  menuLinks[i].addEventListener("click", function() {
+    menu.classList.toggle('visually-hidden');
+    navButton.classList.toggle('main-header__button--active');
+    body.classList.toggle('no-scroll');
+  })
+}
