@@ -1382,20 +1382,13 @@ video {
     max-width: 67%; }
   .contacts__map {
     margin-top: 20px;
+    background-image: url("../img/map-prew-tablet.jpg");
     max-width: 698px;
     min-height: 545px; } }
   @media (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 1023px) and (min-resolution: 1.5dppx) {
     .contacts__map {
+      background-image: url("../img/map-prew-tablet@2x.jpg");
       background-size: contain; } }
-
-@media (max-width: 1023px) {
-  .no-js .contacts__map,
-  .no-webp .contacts__map {
-    background-image: url("..img/map-prew-tablet.jpg"); } }
-  @media (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 1023px) and (min-resolution: 1.5dppx) {
-    .no-js .contacts__map,
-    .no-webp .contacts__map {
-      background-image: url("..img/map-prew@-tablet2x.jpg"); } }
 
 @media (max-width: 1023px) {
   .webp .contacts__map {
@@ -1416,19 +1409,12 @@ video {
   .contacts__map {
     margin-top: 18px;
     width: 320px;
-    min-height: 250px; } }
+    min-height: 250px;
+    background-image: url("../img/map-prew-mobile.jpg"); } }
   @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 767px) and (min-resolution: 1.5dppx) {
     .contacts__map {
+      background-image: url("../img/map-prew-mobile@2x.jpg");
       background-size: contain; } }
-
-@media (max-width: 767px) {
-  .no-js .contacts__map,
-  .no-webp .contacts__map {
-    background-image: url("..img/map-prew-mobile.jpg"); } }
-  @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 767px) and (min-resolution: 1.5dppx) {
-    .no-js .contacts__map,
-    .no-webp .contacts__map {
-      background-image: url("..img/map-prew@-mobile@2x.jpg"); } }
 
 @media (max-width: 767px) {
   .webp .contacts__map {
