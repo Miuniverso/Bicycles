@@ -976,17 +976,20 @@ video {
   margin: 0 auto; }
 
 .catalog__item {
-  padding: 0 10px;
+  padding: 0 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+  width: 33%; }
 
 .catalog__img {
-  z-index: 1; }
+  z-index: 1;
+  width: 342px;
+  height: auto; }
 
 .catalog__link {
   display: -webkit-box;
@@ -1000,7 +1003,8 @@ video {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  width: 100%; }
   .catalog__link--first::before {
     position: absolute;
     content: "";
@@ -1011,7 +1015,7 @@ video {
     top: 44%;
     -webkit-transform: translateY(-48%);
             transform: translateY(-48%);
-    left: -60px;
+    left: -45px;
     z-index: -1; }
   .catalog__link--last::after {
     position: absolute;
@@ -1021,7 +1025,7 @@ video {
     border: 17px solid #0AD9C6;
     border-radius: 50%;
     top: -6%;
-    right: -11%;
+    right: -6%;
     z-index: 1; }
   .catalog__link--middle::before {
     position: absolute;
@@ -1031,7 +1035,7 @@ video {
     border: 8px solid #0AD9C6;
     z-index: 2;
     top: -18px;
-    left: -20px; }
+    left: -5px; }
   .catalog__link--middle::after {
     position: absolute;
     content: "";
@@ -1039,8 +1043,8 @@ video {
     height: 47px;
     border: 8px solid #0AD9C6;
     z-index: 2;
-    bottom: 31px;
-    right: -23px; }
+    bottom: 29px;
+    right: -9px; }
   .catalog__link:hover .catalog__subtitle,
   .catalog__link:focus .catalog__subtitle {
     color: #0AD9C6; }
@@ -1048,14 +1052,15 @@ video {
     color: #141517; }
 
 .catalog__link--first {
-  margin-left: 60px;
+  margin-left: 36px;
   margin-top: 10px; }
 
 .catalog__link--middle {
-  margin-top: 39px; }
+  margin-top: 39px;
+  margin-left: 12px; }
 
 .catalog__link--last {
-  margin-right: 36px; }
+  margin-left: -12px; }
 
 .catalog__subtitle {
   -webkit-transition: .3s ease;
@@ -1082,7 +1087,8 @@ video {
         justify-content: space-around;
     max-width: 84%; }
   .catalog__item {
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    width: auto; }
   .catalog__subtitle {
     letter-spacing: -0.4px;
     margin-top: 17px; }
@@ -1133,7 +1139,8 @@ video {
     margin-top: 0; }
   .catalog__item {
     padding: 0;
-    margin-bottom: 2px; }
+    margin-bottom: 2px;
+    width: 100%; }
   .catalog__img {
     width: 270px;
     height: 300px; }
