@@ -54,13 +54,42 @@
     margin-top: 0;
     flex-direction: column;
     align-items: center;
+
+    &--no-js {
+      margin-top: 0;
+      max-width: 100%;
   }
 
   .intro__wrapper {
     margin-top: 110px;
 
     text-align: center;
+
+    &--no-js {
+      width: 100%;
+      margin-top: 487px;
+      background-image: url("../img/bike-intro-tablet@1x.jpg");
+      background-repeat: no-repeat;
+      background-position: top;
+      background-size: cover;
+      width: 100%;
+      padding: 160px 0;
+
+      @media (min-resolution: $retina-dppx) {
+        background-image: url("../img/bike-intro-tablet@2x.jpg");
+      }
   }
+}
+
+
+  .webp .intro--no-js {
+    background-image: url("../img/bike-intro-tablet@1x.webp");
+
+    @media (min-resolution: $retina-dppx) {
+      background-image: url("../img/bike-intro-tablet@2x.webp");
+    }
+  }
+
 
   .intro__title {
     font-size: 30px;
@@ -88,6 +117,11 @@
   .intro__form {
     margin-top: 151px;
     margin-right: 0;
+
+    &--no-js {
+      margin-top: 80px;
+      }
+    }
   }
 }
 

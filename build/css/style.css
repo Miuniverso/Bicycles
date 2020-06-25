@@ -663,26 +663,52 @@ video {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-  .intro__wrapper {
-    margin-top: 110px;
-    text-align: center; }
-  .intro__title {
-    font-size: 30px;
-    line-height: 42px; }
-  .intro__subtitle {
-    margin: 0 auto;
-    margin-top: 19px;
-    font-size: 18px;
-    line-height: 32px; }
-  .intro__logo {
-    position: absolute;
-    top: 25px;
-    left: 22px; }
-    .intro__logo--no-js {
-      z-index: 1; }
-  .intro__form {
-    margin-top: 151px;
-    margin-right: 0; } }
+    .intro--no-js {
+      margin-top: 0;
+      max-width: 100%; }
+    .intro .intro__wrapper {
+      margin-top: 110px;
+      text-align: center; }
+      .intro .intro__wrapper--no-js {
+        width: 100%;
+        margin-top: 487px;
+        background-image: url("../img/bike-intro-tablet@1x.jpg");
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        width: 100%;
+        padding: 160px 0; } }
+      @media (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 1023px) and (min-resolution: 1.5dppx) {
+        .intro .intro__wrapper--no-js {
+          background-image: url("../img/bike-intro-tablet@2x.jpg"); } }
+
+@media (max-width: 1023px) {
+    .intro .webp .intro--no-js {
+      background-image: url("../img/bike-intro-tablet@1x.webp"); } }
+    @media (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 1023px) and (min-resolution: 1.5dppx) {
+      .intro .webp .intro--no-js {
+        background-image: url("../img/bike-intro-tablet@2x.webp"); } }
+
+@media (max-width: 1023px) {
+    .intro .intro__title {
+      font-size: 30px;
+      line-height: 42px; }
+    .intro .intro__subtitle {
+      margin: 0 auto;
+      margin-top: 19px;
+      font-size: 18px;
+      line-height: 32px; }
+    .intro .intro__logo {
+      position: absolute;
+      top: 25px;
+      left: 22px; }
+      .intro .intro__logo--no-js {
+        z-index: 1; }
+    .intro .intro__form {
+      margin-top: 151px;
+      margin-right: 0; }
+      .intro .intro__form--no-js {
+        margin-top: 80px; } }
 
 @media (max-width: 767px) {
   .intro {
@@ -792,8 +818,6 @@ video {
 @media (max-width: 1023px) {
   .form {
     max-width: 45%; }
-    .form--no-js {
-      display: none; }
   .form__title {
     color: #141517;
     max-width: 95%;
@@ -836,7 +860,7 @@ video {
   margin-bottom: 91px;
   text-align: center; }
   .facts--no-js {
-    margin-top: 20%; }
+    margin-top: 7%; }
 
 .facts__title {
   font-style: normal;

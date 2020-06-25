@@ -7,14 +7,18 @@ var menu = document.querySelector(".main-nav");
 var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
 var body = document.querySelector('body');
 var logo = document.querySelector('.intro__logo');
-var form = document.querySelector('.form');
+var form = document.querySelector('.intro__form');
 var menuLinks = document.querySelectorAll(".main-nav__link");
 var facts = document.querySelector(".facts");
+var intro = document.querySelector(".intro");
+var introWrapper = document.querySelector(".intro__wrapper");
 
 menu.classList.remove("main-nav--no-js");
 logo.classList.remove("intro__logo--no-js");
-form.classList.remove("form--no-js");
+form.classList.remove("intro__form--no-js");
 facts.classList.remove("facts--no-js");
+intro.classList.remove("intro--no-js");
+introWrapper.classList.remove("intro__wrapper--no-js");
 
 if (viewportWidth < 1023) {
   menu.classList.add("visually-hidden");
